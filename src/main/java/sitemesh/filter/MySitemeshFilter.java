@@ -7,7 +7,7 @@ public class MySitemeshFilter extends ConfigurableSiteMeshFilter {
 
 	@Override
 	protected void applyCustomConfiguration(SiteMeshFilterBuilder builder) {
-		builder.addDecoratorPath("/*", "/decorators/decorator.html")
-				.addExcludedPath("/excluded/*");
+		builder.addDecoratorPath("/*", "/decorators/decorator.html").addExcludedPath("/excluded/*")
+				.addExcludedPath("/resources/*").addExcludedPath("/decorators/*");
 	}
 }
