@@ -10,6 +10,7 @@
 		<java.version>1.8</java.version>
 		<servlet.context.version>3.0.1</servlet.context.version>
 		<spring.mvc.version>4.2.2.RELEASE</spring.mvc.version>
+		<sitemesh.version>3.0.1</sitemesh.version>
 	</properties>
 
 	<dependencies>
@@ -22,7 +23,7 @@
 		<dependency>
 			<groupId>org.sitemesh</groupId>
 			<artifactId>sitemesh</artifactId>
-			<version>3.0.1</version>
+			<version>${sitemesh.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
